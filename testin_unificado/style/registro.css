@@ -1,0 +1,74 @@
+* {
+    margin: auto;
+}
+
+body:hover {
+    resize: both;
+}
+
+.d1 {
+    text-align: center;
+}
+
+div {
+    text-align: justify;
+    font-size: 1em;
+    padding-bottom: 5%;
+}
+
+.formulario {
+    padding-left: 0%;
+    margin-inline: 10%;
+}
+
+.boton {
+    display: block;
+    background-color: #0095eb;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    font-size: 1em;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.boton:hover {
+    background-color: #046193;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: #525c66;
+    font-size: 1em;
+}
+
+input:hover {
+    background: #A9A9A9;
+    color: #525c66;
+}
+
+form {
+    padding: 5%;
+    max-width: 800px;
+    background-color: #E7E7E7;
+    margin: 0 auto;
+}
+
+
+/** estilos con la tabla */
+
+table {
+    padding-top: 2%;
+    background-color: #E7E7E7;
+}
+
+tr:hover {
+    background: #A9A9A9;
+}
+
+.valideitor {
+    padding-top: 3%;
+    background-color: grey;
+}

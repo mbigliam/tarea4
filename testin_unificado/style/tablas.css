@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*colocarlo en imagen*/
+}
+
+
+/* mi contenedor*/
+
+.aside21 {
+    text-align: match-padding;
+    color: black;
+    padding-left: 10%;
+    padding-right: 0%;
+    margin: 2em;
+    width: 80%;
+    height: 100%;
+    border-color: white;
+}
+
+.table {
+    width: 80%;
+    border: 1px solid black;
+    color: black;
+    padding-left: 10%;
+    margin: 0% 0% 0% 0%;
+}
+
+th {
+    width: 10%;
+    height: 20%;
+}
+
+td {
+    text-align: center;
+    border-spacing: collapse;
+    border: 1px solid black;
+    background-color: #D3D3D3;
+}
+
+td:hover {
+    background-color: #B0C4DE;
+}

@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*colocarlo en imagen*/
+}
+
+section,
+article,
+aside,
+footer,
+header,
+nav,
+hgroup {
+    display: block;
+}
+
+body {
+    background-color: #FFFFF0;
+    color: #fff;
+}
+
+header {
+    height: 150px;
+    background: #00FFFF;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: left;
+    line-height: 150px;
+}
+
+
+/* comienzo a  diseñar mi menu*/
+
+nav {
+    display: inline-block;
+    /*background-color: rgba(0, 0, 0, 0.171);*/
+    height: 63px;
+    margin: 0.70em solid rgba(41, 158, 212, 0.767);
+    box-shadow: 0px 0px 0px 0px #84c4ee;
+    -webkit-box-shadow: 0px 10px 10px 0px #1a89caca;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding: 15px 20px;
+    background-color: #000;
+    border-radius: 0px 0px 0px 0px;
+    border: 5px solid #000;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+nav li>ul {
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+
+/* comienzo a  maquetar los div y los separo*/
+
+#contenedor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+
+#contenido {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.article {
+    padding-left: 0px;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 500px 0px 500px 0px;
+    box-shadow: 0px 0px 0px 0px #84c4ee;
+    -webkit-box-shadow: 0px 0px 10px 10px #091622;
+}
+
+article .test1 {
+    margin: auto;
+    margin-right: 24.5%;
+    margin-top: 2%;
+    margin: 1px solid rgba(0, 0, 0, 0.767);
+    border-radius: 50px 50px 50px 50px;
+    padding-top: 0px;
+    width: 50%;
+    height: 10px;
+    text-align: start;
+    box-shadow: 0px 0px 10px 6px #84c4ee;
+    -webkit-box-shadow: 0px 0px 6px 2px #6f8ba5;
+    background-color: red;
+}
+
+article .test {
+    margin: auto;
+    margin-right: 24.5%;
+    margin-top: 5%;
+    margin: 1px solid rgba(0, 0, 0, 0.767);
+    border-radius: 50px 50px 50px 50px;
+    padding-top: 0px;
+    width: 50%;
+    height: 10px;
+    text-align: start;
+}
+
+article .test2 {
+    margin: auto;
+    margin-right: 24.5%;
+    margin-top: 1%;
+    width: 50%;
+    height: 10px;
+    text-align: start;
+    font-size: 1.30em;
+    color: black;
+}
+
+.aside2 .test3 {
+    margin: auto;
+    margin-right: 24.5%;
+    margin-top: 1%;
+    width: 100%;
+    height: 10px;
+    text-align: justify;
+    font-size: 1.30em;
+    color: black;
+}
+
+.test {
+    position: relative;
+    font-size: 2em;
+    color: #000;
+    border-style: 1, 2;
+}
+
+.x {
+    text-decoration: none;
+}
+
+#texto {
+    display: flex;
+}
+
+aside {
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    color: black;
+}
+
+.aside1 {
+    width: 25%;
+    height: 1%;
+    border-style: none;
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-top: 0px;
+    display: flex;
+    float: bottom;
+}
+
+.flex_asidex {
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 30%;
+}
+
+.flex_asidex0 {
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+}
+
+.fer {
+    font-size: 1.3em;
+}
